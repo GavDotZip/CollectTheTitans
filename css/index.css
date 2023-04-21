@@ -1,0 +1,54 @@
+body{
+    background-image: url(images\indexBack.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Manjari', sans-serif;
+
+}
+
+#banner-container{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+#banner-row img{
+    max-width: 70%;
+    height: auto;
+    display: block;
+    padding-left: 30px;
+}
+
+#banner-row h1, p{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#banner-row a{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+	
+}
+#banner-row a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #banner-row  a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+#banner-col{
+    padding-left: 20px;
+}
